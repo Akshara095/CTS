@@ -1,0 +1,52 @@
+.App {
+  text-align: center;
+  padding: 30px;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fc;
+  min-height: 100vh;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.page {
+  margin-top: 30px;
+}
+
+.flight-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.flight-card {
+  background-color: white;
+  padding: 15px 25px;
+  margin: 10px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  width: 300px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.book-btn {
+  margin-top: 10px;
+  background-color: #28a745;
+}
+
+.book-btn:hover {
+  background-color: #218838;
+}
